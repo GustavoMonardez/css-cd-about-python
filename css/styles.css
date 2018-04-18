@@ -107,7 +107,7 @@ input[type=submit] {
 .content {
     text-align: center;
     box-shadow: 0px 1px 0px 0px #000000;
-    margin-bottom:2px;
+    margin-bottom: 2px;
 }
 
 .content div {
@@ -160,53 +160,88 @@ input[type=submit] {
     margin-top: 5px;
 }
 
-.next{
+.next {
     text-align: center;
     background-color: white;
-    padding:10px;
+    padding: 10px;
 }
 
-.next div{
+.next div {
     display: inline-block;
     width: 455px;
     vertical-align: top;
 }
 
-.next .applications{
+.next .applications {
     margin-left: 35px;
 }
 
-.started h3::before, .applications h3::before{
+.started h3::before, .applications h3::before {
     display: block;
-    height:3px;
-    background-color:#75AAD6;
-    content:"";
-    width:420px;
+    height: 3px;
+    background-color: #75a8d3;
+    content: "";
+    width: 420px;
     margin: 0 auto 5px 10px;
 }
 
-.started h3::before{
-    margin-left:65px;
+.started h3::before {
+    margin-left: 65px;
 }
 
-.next h3{
-    margin-bottom:5px;
+.next h3 {
+    margin-bottom: 5px;
 }
 
 .started {
     text-align: center;
 }
 
-.next p, .next ul{
-    width:300px;
+.next p, .next ul {
+    width: 300px;
     display: inline-block;
 }
 
-.next ul{
-    width:220px;
+.next ul {
+    width: 220px;
 }
 
-.next ul li a, .applications a{
-    color:#75AAD6;
+.next ul li{
+    list-style: square;
+}
+
+.next ul li a, .applications a {
+    color: #75a8d3;
     text-decoration: none;
+}
+
+.footer-gradient {
+    background: #2c5474;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #2c5474 0%, #3472a5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2c5474 0%, #3472a5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2c5474 0%, #3472a5 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c5474', endColorstr='#3472a5', GradientType=0);
+    /* IE6-9 */
+}
+
+.footer{
+    height:80px;
+    color:white;
+    text-align: center;
+}
+
+.footer a{
+    display: inline-block;
+    color: #75a8d3;
+    text-decoration: none;
+    font-size:12px;
+    padding:15px;
+    margin-top:20px;
+}
+.footer p{
+    font-size:8px;
 }
